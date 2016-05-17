@@ -1,9 +1,10 @@
 # Search-Insert-
 Searching and Inserting the data into Redis and ElasticSearch Database using PHP
 This project was developed on Xampp server using stack as PHP and databases redis & ElasticSearch.
-Step to Install this project
-1) Install java 
-   i)Set path for Java using Name 'PATH'.
+<ul>
+<li>Step to Install this project<br/>
+1) Install java <br/>
+   i)Set path for Java using Name 'PATH'.<br/>
    ii)Set another path for java using Name 'JAVA_HOME'.
 2) Install redis 
   i) [OPTIONAL]: You could install Redis Server Manager(RSM) to check out your database in the RSM GUI.
