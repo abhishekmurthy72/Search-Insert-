@@ -13,7 +13,7 @@
 <label id="txt1"><b>Enter Your Id:</b></label>
 <br/><input type="text"  id= "txtbox" name="insertid" placeholder="&nbsp;&nbsp;Enter your id " />
 <br/><label id="txt1"><b>Enter Your Name:</b></label>
-<br/><input type="text"  id= "txtbox" name="insertbox" placeholder="&nbsp;&nbsp;Enter your name here " />
+<br/><input type="text"  id= "txtbox" name="insertbox" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Enter your name here " />
 <br/><br/><input type="submit" id="sub1" value="Insert to data base" name="submit" />	
 </form></center> 
 </body> 
