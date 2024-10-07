@@ -6,8 +6,8 @@
 		border-radius: 20px;
 		position:absolute;
 		right:20%;
-/* 		top:38%;
-		font-family: segoe UI; */
+		top:38%;
+		font-family: segoe UI;
 	}
 #txt1{	color:white;		font-family: segoe UI; }
 #txtbox{	width: 300px;	height:25px;	color:white; font-size: 17px;	background-color:#C7D6C7; opacity: 0.5;	font-family: segoe UI;	
