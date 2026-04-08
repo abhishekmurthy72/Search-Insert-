@@ -23,7 +23,7 @@
 #   checkmarx-scan:
 #     strategy:
 #       matrix:
-#         os: [ubuntu-latest]
+#         os: [ubuntu-latest, windows-latest]
 #     runs-on: ${{ matrix.os }}
 #     permissions:
 #       contents: read
@@ -281,7 +281,7 @@ jobs:
   checkmarx-scan:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     permissions:
       contents: read
