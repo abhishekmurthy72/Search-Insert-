@@ -212,7 +212,7 @@ jobs:
         run: |
           ./cx utils pr github \
             --scan-id "${{ env.CX_SCAN_ID }}" \
-            --token ${{ secrets.GITHUB_TOKEN }} \
+            --token ${{ github.token }} \
             --namespace "${{ github.repository_owner }}" \
             --repo-name "${{ github.event.repository.name }}" \
             --pr-number "${{ github.event.pull_request.number }}"
@@ -226,7 +226,7 @@ jobs:
         run: |
           .\cx.exe utils pr github `
             --scan-id "${{ env.CX_SCAN_ID }}" `
-            --token ${{ secrets.GITHUB_TOKEN }} `
+            --token ${{ github.token }} `
             --namespace "${{ github.repository_owner }}" `
             --repo-name "${{ github.event.repository.name }}" `
             --pr-number "${{ github.event.pull_request.number }}"
